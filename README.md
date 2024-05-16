@@ -55,7 +55,8 @@ Las opciones de diseño de topología jerárquica con OSPF multiárea pueden ofr
 
 * Menor frecuencia de cálculos de SPF - Multiárea OSPF localiza el impacto de un cambio de topología dentro de un área. Por ejemplo, minimiza el impacto de las actualizaciones de enrutamiento, debido a que la saturación con LSA se detiene en el límite del área.
 
-se usan los siguientes paquetes
+# se usan los siguientes paquetes
+
 * hello
   Descubre los vecinos y construye adyacencias entre ellos
 * dbd / Descriptores de bases de datos 
