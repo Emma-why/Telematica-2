@@ -104,6 +104,27 @@ Las redes multiacceso pueden crear dos retos para OSPF en relación con la satur
 Creación de varias adyacencias:las redes Ethernet podrían interconectar muchos routers OSPF con un enlace común. La creación de adyacencias con cada router es innecesaria y no se recomienda Conduciría al intercambio de una cantidad excesiva de LSA entre routers en la misma red.
 Saturación intensa con LSA:los routers de estado de enlace saturan con sus LSA cada vez que se inicializa OSPF o cuando se produce un cambio en la topología. Esta saturación puede llegar a ser excesiva.
 
+R1(config)# router ospf 10
+R1(config-router)# ?
+  area                   OSPF area parameters
+  auto-cost              Calculate OSPF interface cost according to bandwidth
+  default-information    Control distribution of default information
+  distance               Define an administrative distance
+  exit                   Exit from routing protocol configuration mode
+  log-adjacency-changes  Log changes in adjacency state
+  neighbor               Specify a neighbor router
+  network                Enable routing on an IP network
+  no                     Negate a command or set its defaults
+  passive-interface      Suppress routing updates on an interface
+  redistribute           Redistribute information from another routing protocol
+  router-id              router-id for this OSPF process
+
+  El router ID de OSPF es un valor de 32 bits, representado como una dirección IPv4. EL router ID se utilizan para identificar un router OSPF. Todos los paquetes OSPF incluyen el router ID del router de origen. Para participar en un dominio OSPF, cada router requiere un router ID. El router ID puede estar definido por un administrador o puede ser asignado en forma automática por el router. El router ID es utilizada por un router habilitado por OSPF para hacer lo siguiente:
+
+Participar en la sincronización de bases de datos OSPF : durante el estado de Exchange, el router con el ID más alto enviará primero sus paquetes de descriptor de base de datos (DBD).
+Participar en la elección del router designado (DR) - En un entorno LAN multiacceso, el router con el ID más alto se elige el DR. El dispositivo de enrutamiento con el segundo router ID más alto, se elige como el router designado de respaldo (BDR).
+Nota: El proceso electoral de DR y BDR se discute con más detalle más adelante en este módulo.
+
 ---
 
 ## MODULO-2
