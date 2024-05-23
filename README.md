@@ -23,7 +23,7 @@ el protocolo de ospf es un protocolo de enrutamiento de estaos de enlace desarol
 
 un es un protocolo sin clase que utiliza conceptos de areas para realizar escabilidad un administracion de red puede dividir el dominio de enrutamiento en areas distintas que ayudan a controlar el trafico en la actualidad de la red en su enrutamiento
 
-la informacion acerca del estado dicho  emñaces se conoce ya de antes mano con los tipos de paquetes
+la informacion acerca del estado dicho se conoce ya de antes mano con los tipos de paquetes
 
 * paquetes de saludo
 * paquetes de descripcion de la base de datos
