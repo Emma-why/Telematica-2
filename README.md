@@ -41,9 +41,9 @@ el router de topologia para ellos los resultados de calculso realizados a partie
 
 operaciones de etado de enlace
 
-* estabkecunuebti de abyacebcias de vecinos
-* intercambio de anuncios de estaod de enlace
-* crear ala base de datos de estaod de enlace
+* establecer de abyacecias de vecinos
+* intercambio de anuncios de estado de enlace
+* crear ala base de datos de estado de enlace
 * ejecuta sft
 * se elige la mejor ruta
 
