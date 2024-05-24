@@ -15,6 +15,11 @@ aqui voy a subir to y e voy a quemar igualito
 ---
 ## https://ccnadesdecero.es/ccna-3/#Modulo_1_Conceptos_OSPFv2_de_Area_Unica_CCNA_3_v7
 ---
++
+show ip ospf neighbor
+show ip protocols
+show ip ospf
+show ip ospf interface
 
 ## MODULO-1
 Conceptos OSPFv2
