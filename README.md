@@ -1,6 +1,6 @@
 # guia
 
-aqui voy a subir to y e voy a quemar igualito
+aqui voy a subir to y como sea voy a quemar igualito
 
 # Indices
 
