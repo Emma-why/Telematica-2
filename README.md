@@ -10,6 +10,7 @@ aqui voy a subir to y como sea voy a quemar igualito
 4. [Conceptos de ACL](#MODULO-4)
 5. [Configuración de ACL para IPv4](#MODULO-5)
 6. [NAT en IPv4](#MODULO-6)
+7. [VPN](#MODULO-8)
 
 
 ---
@@ -148,8 +149,19 @@ Conceptos de ACL
 ## MODULO-5
 Configuración de ACL para IPv4
 
+
+
 ---
 ## MODULO-6
 NAT en IPv4
 
 ---
+
+## MODULO-8
+
+3DES es un cifrado de cifrado derivado del Estándar de cifrado de datos (DES) original. Se hizo prominente a finales de los noventa, pero desde entonces ha caído en desgracia debido al surgimiento de algoritmos más seguros, como AES-256 y XChaCha20.
+
+Aunque quedará obsoleto en 2023, aún se implementa en algunas situaciones. Dado que se basa en uno de los primeros algoritmos ampliamente publicados y estudiados, DES, sigue siendo importante aprender qué es 3DES y cómo funciona.
+
+En esta guía te explicaremos cada paso del proceso DES en detalle, cómo se modifica DES en 3DES para hacerlo más seguro y los diversos problemas de seguridad y si debes o no usar el algoritmo.
+
