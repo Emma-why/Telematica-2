@@ -1,5 +1,8 @@
 # guia
 
+
+https://es.scribd.com/embeds/528722932/content?start_page=1&view_mode=scroll&access_key=key-fFexxf7r1bzEfWu3HKwf
+
 aqui voy a subir to y como sea voy a quemar igualito
 
 # Indices
