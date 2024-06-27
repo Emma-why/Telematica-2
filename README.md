@@ -159,6 +159,8 @@ NAT en IPv4
 
 ## MODULO-8
 
+*atrasado*
+
 3DES es un cifrado de cifrado derivado del Estándar de cifrado de datos (DES) original. Se hizo prominente a finales de los noventa, pero desde entonces ha caído en desgracia debido al surgimiento de algoritmos más seguros, como AES-256 y XChaCha20.
 
 Aunque quedará obsoleto en 2023, aún se implementa en algunas situaciones. Dado que se basa en uno de los primeros algoritmos ampliamente publicados y estudiados, DES, sigue siendo importante aprender qué es 3DES y cómo funciona.
